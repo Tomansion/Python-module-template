@@ -3,6 +3,7 @@
   "language": "en",
   "words": [
     "__pycache__",
+    "automodule",
     "connexion",
     "dataframe",
     "DebiAI",
@@ -19,6 +20,7 @@
   ],
   "flagWords": [],
   "ignorePaths": [
+    "*.bat",
     "*.egg-info",
     "*.svg",
     "*.json",
@@ -29,6 +31,8 @@
     "*.sh",
     ".vscode/*",
     "build",
+    "docs/_build",
+    "docs/Makefile",
     "requirements.txt",
     "__pycache__/",
     "htmlcov/",
