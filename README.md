@@ -18,7 +18,7 @@ TODO
 
 - Documentation:
 
-  - [**Docstrings**](https://www.python.org/dev/peps/pep-0257/): A way to document the code using comments.
+  - [**Docstring**](https://www.python.org/dev/peps/pep-0257/): A way to document the code using comments.
   - [**Sphinx**](https://www.sphinx-doc.org/): A tool that makes it easy to create intelligent and beautiful documentation.
 
 - Code Quality:
