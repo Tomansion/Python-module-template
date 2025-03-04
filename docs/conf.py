@@ -1,8 +1,14 @@
+import os
+import sys
+
+sys.path.insert(0, os.path.abspath(".."))
+
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information -----------------------------------------------------
 
-project = "Python Module Template"
+project = "Python module template"
+copyright = "2025, ToMansion"
 author = "ToMansion"
 release = "1.0.0"
 
@@ -12,9 +18,8 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
 ]
-
 templates_path = ["_templates"]
-exclude_patterns = []
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # -- Options for HTML output -------------------------------------------------
 

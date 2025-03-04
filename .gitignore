@@ -18,4 +18,4 @@ build/
 *.egg-info/
 
 # Documentation
-docs/source/_build/
+docs/_build/
