@@ -2,21 +2,21 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Python Module Template'
-author = 'ToMansion'
-release = '1.0.0'
+project = "Python Module Template"
+author = "ToMansion"
+release = "1.0.0"
 
 # -- General configuration ---------------------------------------------------
 
 extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon',
+    "sphinx.ext.autodoc",
+    "sphinx.ext.napoleon",
 ]
 
-templates_path = ['_templates']
+templates_path = ["_templates"]
 exclude_patterns = []
 
 # -- Options for HTML output -------------------------------------------------
 
-html_theme = 'alabaster'
-html_static_path = ['_static']
+html_theme = "alabaster"
+html_static_path = ["_static"]
