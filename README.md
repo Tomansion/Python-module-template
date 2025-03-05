@@ -6,7 +6,7 @@
 [![Code style: flake8](https://img.shields.io/badge/code%20style-flake8-1c4a6c.svg)](https://flake8.pycqa.org/en/latest/)
 
 ![ci](https://github.com/tomansion/Python-module-template/actions/workflows/pull-request-checks.yml/badge.svg)
-![cd](https://github.com/tomansion/Python-module-template/actions/workflows/continuous-deployment.yml/badge.svg)
+<!-- ![cd](https://github.com/tomansion/Python-module-template/actions/workflows/continuous-deployment.yml/badge.svg) -->
 
 ---
 
@@ -37,26 +37,39 @@ TODO
 
 ## Getting started
 
-TODO
+To use this Python module template, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/Tomansion/Python-module-template.git
+
+# Install the python module
+cd Python-module-template
+pip install .
+```
 
 ## Test
 
 To run the tests using Pytest, follow these steps:
 
-1. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+# Install the required dependencies:
+pip install -r requirements.txt
 
-2. Run the tests:
-   ```bash
-   pytest
-   ```
+# Run the tests
+pytest
+
+# Run the tests with coverage
+pytest --cov=python_module_template
+```
 
 ## TODO
 
-- [ ] Create basic functions
-- [ ] Add unit tests with pytest
-- [ ] Add tests CI/CD pipeline
-- [ ] Add Sphinx documentation
-- [ ] Add documentation CI/CD pipeline with GitHub Pages
+- [x] Create basic functions
+- [x] Add unit tests with pytest
+- [x] Add tests CI/CD pipeline
+- [x] Add Sphinx documentation
+- [x] Add documentation CI/CD pipeline with GitHub Pages
+- [ ] Coverage check pipeline and display in the README badge
+- [ ] Add to Pypi
+- [ ] Pypi upload pipeline
