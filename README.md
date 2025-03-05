@@ -39,6 +39,20 @@ TODO
 
 TODO
 
+## Test
+
+To run the tests using Pytest, follow these steps:
+
+1. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Run the tests:
+   ```bash
+   pytest
+   ```
+
 ## TODO
 
 - [ ] Create basic functions
