@@ -5,7 +5,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Code style: flake8](https://img.shields.io/badge/code%20style-flake8-1c4a6c.svg)](https://flake8.pycqa.org/en/latest/)
 
-![ci](https://github.com/tomansion/Python-module-template/actions/workflows/pull-request-checks.yml/badge.svg)
+<!-- ![ci](https://github.com/Tomansion/Python-module-template/actions/workflows/pull-request-checks.yml/badge.svg) -->
 <!-- ![cd](https://github.com/tomansion/Python-module-template/actions/workflows/continuous-deployment.yml/badge.svg) -->
 
 ---
@@ -34,6 +34,10 @@ TODO
 - Continuous Integration and Continuous Deployment:
 
   - **GitHub Actions**: This project includes a GitHub Actions workflow that runs the tests, linters, pushes the Python module to the PyPI repository, and deploys the documentation to GitHub Pages.
+
+## Python module documentation
+
+The documentation is available at [https://tomansion.github.io/Python-module-template/](https://tomansion.github.io/Python-module-template/).
 
 ## Getting started
 
@@ -70,6 +74,7 @@ pytest --cov=python_module_template
 - [x] Add tests CI/CD pipeline
 - [x] Add Sphinx documentation
 - [x] Add documentation CI/CD pipeline with GitHub Pages
+- [ ] Pipelines badges
 - [ ] Coverage check pipeline and display in the README badge
 - [ ] Add to Pypi
 - [ ] Pypi upload pipeline
